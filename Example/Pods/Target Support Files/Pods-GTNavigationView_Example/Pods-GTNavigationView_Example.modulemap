@@ -1,0 +1,6 @@
+framework module Pods_GTNavigationView_Example {
+  umbrella header "Pods-GTNavigationView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

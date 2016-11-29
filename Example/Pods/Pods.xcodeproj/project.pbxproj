@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E9FBF42CB114406F4C657D629E83A2 /* Pods-GTNavigationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 705C72423A12D90F66F303C235A7699A /* Pods-GTNavigationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B621EDF551D5467A9B6F380CDAAB6BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		47C04EB58D282A369F4B8D97AF8AF3FC /* GTNavigationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B623F6AB1E5D0574D543BC677A5735B /* GTNavigationView-dummy.m */; };
+		652D0244EB896B4386C7CB1B8FB8A633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		68F473C7EB07B613942565843D551EF7 /* Pods-GTNavigationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD3082ED77E90627C49C851A69C92FE /* Pods-GTNavigationView_Tests-dummy.m */; };
+		71A6E712FD7522B0D7D6350879E94B38 /* GTNavigationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE4B072430BAFAA0B147200FF9B68EB /* GTNavigationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BF03B1C42DC47E8DD8EAAFBDD038E4 /* Pods-GTNavigationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03273C72115022BDE20A05FAEEAFC193 /* Pods-GTNavigationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246761BD4A062F124D5E3EE1730D6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BF45E1A21DEE0E7C00471F81 /* ComplexNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF45E19E1DEE0E7C00471F81 /* ComplexNavigationView.swift */; };
+		BF45E1A31DEE0E7C00471F81 /* SimpleNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF45E1A01DEE0E7C00471F81 /* SimpleNavigationView.swift */; };
+		ECCA2AB717DFD9404F9D2DFF76788D74 /* Pods-GTNavigationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC062C37356D3E4DAFACF0EBB9C285D /* Pods-GTNavigationView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D5EAAF9279F409F5FF11EEE26F0D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B969DFD8D16966F914DD7E1282C52558;
+			remoteInfo = GTNavigationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03273C72115022BDE20A05FAEEAFC193 /* Pods-GTNavigationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNavigationView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		047ACC15F4942DB2FCC39475C3C30398 /* Pods-GTNavigationView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNavigationView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1B623F6AB1E5D0574D543BC677A5735B /* GTNavigationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTNavigationView-dummy.m"; sourceTree = "<group>"; };
+		1BD07D003CA70C5DF63163EBCD013F6E /* Pods-GTNavigationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTNavigationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31ADCF66C35568122413A92D01FED3A1 /* GTNavigationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTNavigationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E2E94DF7AC4BB8E059C860A66E7784 /* Pods-GTNavigationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTNavigationView_Example.modulemap"; sourceTree = "<group>"; };
+		37D5A5A55BFF2B8B505823FE3BBDDC42 /* Pods_GTNavigationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTNavigationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3823B858C98CDC5EB873A8EE158DE20E /* Pods-GTNavigationView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNavigationView_Example-resources.sh"; sourceTree = "<group>"; };
+		3DC062C37356D3E4DAFACF0EBB9C285D /* Pods-GTNavigationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNavigationView_Example-dummy.m"; sourceTree = "<group>"; };
+		3F307498B595B621F5C102116430DB44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471139905B4E4AE749FC06F59B89D56B /* GTNavigationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTNavigationView.xcconfig; sourceTree = "<group>"; };
+		51370334A2A2FCB1E249542B5ABD3F73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DB94ADD3C268A88883058090FFD1F9 /* Pods-GTNavigationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNavigationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		64CF44D9A6EF0FC69BED5E43F388E444 /* Pods_GTNavigationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTNavigationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698D4C48197074E49B5B84ABCE55FFAC /* Pods-GTNavigationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNavigationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		705C72423A12D90F66F303C235A7699A /* Pods-GTNavigationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNavigationView_Example-umbrella.h"; sourceTree = "<group>"; };
+		7EB6F120CAC3A8A9F0E103A3F52F71B3 /* Pods-GTNavigationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTNavigationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B8D1A87E1E5B56778F91483ED1548DE /* GTNavigationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GTNavigationView.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D63870A58963B1D3520DB5C4B818B6C /* Pods-GTNavigationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNavigationView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F12F614868F2CFA053EF8146D9E88A1 /* Pods-GTNavigationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNavigationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FE4B072430BAFAA0B147200FF9B68EB /* GTNavigationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTNavigationView-umbrella.h"; sourceTree = "<group>"; };
+		A33F5EF4CFA8218C691BF0AB4A06AAC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B46CB49DF8CB49A662AD3CB0D238E6 /* Pods-GTNavigationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNavigationView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BF45E19E1DEE0E7C00471F81 /* ComplexNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexNavigationView.swift; sourceTree = "<group>"; };
+		BF45E19F1DEE0E7C00471F81 /* ComplexNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplexNavigationView.xib; sourceTree = "<group>"; };
+		BF45E1A01DEE0E7C00471F81 /* SimpleNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNavigationView.swift; sourceTree = "<group>"; };
+		BF45E1A11DEE0E7C00471F81 /* SimpleNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleNavigationView.xib; sourceTree = "<group>"; };
+		CB9F1631EC508F941878963BBC15B860 /* Pods-GTNavigationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNavigationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDA08D773613DF92F2767B17BF25AB2A /* Pods-GTNavigationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTNavigationView_Tests.modulemap"; sourceTree = "<group>"; };
+		EA4897DDBCE3061B5C095F452BFBBDA0 /* GTNavigationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTNavigationView-prefix.pch"; sourceTree = "<group>"; };
+		EBF597F6D15FF51DA1DB430A0A9FE0D7 /* Pods-GTNavigationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNavigationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDD3082ED77E90627C49C851A69C92FE /* Pods-GTNavigationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNavigationView_Tests-dummy.m"; sourceTree = "<group>"; };
+		FBAF34D9609FB4C85BCF36D781AD806A /* Pods-GTNavigationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNavigationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062F00340E6732708CDB4639B7EAFECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652D0244EB896B4386C7CB1B8FB8A633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1704A2E191520739CFAF7CA1A19D59C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B621EDF551D5467A9B6F380CDAAB6BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A570E47D7B51060BE5FCC531704B4226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8246761BD4A062F124D5E3EE1730D6EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F50A949FB64B6E7676687F51AF2B3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31ADCF66C35568122413A92D01FED3A1 /* GTNavigationView.framework */,
+				37D5A5A55BFF2B8B505823FE3BBDDC42 /* Pods_GTNavigationView_Example.framework */,
+				64CF44D9A6EF0FC69BED5E43F388E444 /* Pods_GTNavigationView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292F1DC187EBD561648E66859E1BA5BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8D1A87E1E5B56778F91483ED1548DE /* GTNavigationView.modulemap */,
+				471139905B4E4AE749FC06F59B89D56B /* GTNavigationView.xcconfig */,
+				1B623F6AB1E5D0574D543BC677A5735B /* GTNavigationView-dummy.m */,
+				EA4897DDBCE3061B5C095F452BFBBDA0 /* GTNavigationView-prefix.pch */,
+				9FE4B072430BAFAA0B147200FF9B68EB /* GTNavigationView-umbrella.h */,
+				3F307498B595B621F5C102116430DB44 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTNavigationView";
+			sourceTree = "<group>";
+		};
+		2DC9C660A59982404474A761622F8CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF45E19D1DEE0E7C00471F81 /* NavigationViews */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C5CDD011203B2D3E7ACF51F26A73DAC /* GTNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				E8F01F55539967216E4599D4EDE9F7C4 /* GTNavigationView */,
+				292F1DC187EBD561648E66859E1BA5BB /* Support Files */,
+			);
+			name = GTNavigationView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F0940811BB1E6BBC5BF9C73B1E20D94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3826FEEA58E318DD2A41363E9BDD979 /* Pods-GTNavigationView_Example */,
+				90EBA263656013B8412248147C90EB07 /* Pods-GTNavigationView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				886472E6D525EE8DDC914B17941A32D9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F50A949FB64B6E7676687F51AF2B3CA /* Products */,
+				6F0940811BB1E6BBC5BF9C73B1E20D94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		886472E6D525EE8DDC914B17941A32D9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C5CDD011203B2D3E7ACF51F26A73DAC /* GTNavigationView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90EBA263656013B8412248147C90EB07 /* Pods-GTNavigationView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51370334A2A2FCB1E249542B5ABD3F73 /* Info.plist */,
+				DDA08D773613DF92F2767B17BF25AB2A /* Pods-GTNavigationView_Tests.modulemap */,
+				7EB6F120CAC3A8A9F0E103A3F52F71B3 /* Pods-GTNavigationView_Tests-acknowledgements.markdown */,
+				9F12F614868F2CFA053EF8146D9E88A1 /* Pods-GTNavigationView_Tests-acknowledgements.plist */,
+				EDD3082ED77E90627C49C851A69C92FE /* Pods-GTNavigationView_Tests-dummy.m */,
+				698D4C48197074E49B5B84ABCE55FFAC /* Pods-GTNavigationView_Tests-frameworks.sh */,
+				047ACC15F4942DB2FCC39475C3C30398 /* Pods-GTNavigationView_Tests-resources.sh */,
+				03273C72115022BDE20A05FAEEAFC193 /* Pods-GTNavigationView_Tests-umbrella.h */,
+				56DB94ADD3C268A88883058090FFD1F9 /* Pods-GTNavigationView_Tests.debug.xcconfig */,
+				CB9F1631EC508F941878963BBC15B860 /* Pods-GTNavigationView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTNavigationView_Tests";
+			path = "Target Support Files/Pods-GTNavigationView_Tests";
+			sourceTree = "<group>";
+		};
+		A3826FEEA58E318DD2A41363E9BDD979 /* Pods-GTNavigationView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A33F5EF4CFA8218C691BF0AB4A06AAC8 /* Info.plist */,
+				34E2E94DF7AC4BB8E059C860A66E7784 /* Pods-GTNavigationView_Example.modulemap */,
+				1BD07D003CA70C5DF63163EBCD013F6E /* Pods-GTNavigationView_Example-acknowledgements.markdown */,
+				EBF597F6D15FF51DA1DB430A0A9FE0D7 /* Pods-GTNavigationView_Example-acknowledgements.plist */,
+				3DC062C37356D3E4DAFACF0EBB9C285D /* Pods-GTNavigationView_Example-dummy.m */,
+				A9B46CB49DF8CB49A662AD3CB0D238E6 /* Pods-GTNavigationView_Example-frameworks.sh */,
+				3823B858C98CDC5EB873A8EE158DE20E /* Pods-GTNavigationView_Example-resources.sh */,
+				705C72423A12D90F66F303C235A7699A /* Pods-GTNavigationView_Example-umbrella.h */,
+				FBAF34D9609FB4C85BCF36D781AD806A /* Pods-GTNavigationView_Example.debug.xcconfig */,
+				9D63870A58963B1D3520DB5C4B818B6C /* Pods-GTNavigationView_Example.release.xcconfig */,
+			);
+			name = "Pods-GTNavigationView_Example";
+			path = "Target Support Files/Pods-GTNavigationView_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF45E19D1DEE0E7C00471F81 /* NavigationViews */ = {
+			isa = PBXGroup;
+			children = (
+				BF45E19E1DEE0E7C00471F81 /* ComplexNavigationView.swift */,
+				BF45E19F1DEE0E7C00471F81 /* ComplexNavigationView.xib */,
+				BF45E1A01DEE0E7C00471F81 /* SimpleNavigationView.swift */,
+				BF45E1A11DEE0E7C00471F81 /* SimpleNavigationView.xib */,
+			);
+			path = NavigationViews;
+			sourceTree = "<group>";
+		};
+		E8F01F55539967216E4599D4EDE9F7C4 /* GTNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9C660A59982404474A761622F8CEA /* Classes */,
+			);
+			path = GTNavigationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		341A32BB640B8F549DA4DC6821DCEC18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BF03B1C42DC47E8DD8EAAFBDD038E4 /* Pods-GTNavigationView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D57BF55935F1059A517C10788CD783 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A6E712FD7522B0D7D6350879E94B38 /* GTNavigationView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D9D0E6503174DB27A45C738C72D907 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E9FBF42CB114406F4C657D629E83A2 /* Pods-GTNavigationView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		073D81D7512B92E005C849B8162D3D20 /* Pods-GTNavigationView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B0BF4619EFC5399C1208B21820C1AA /* Build configuration list for PBXNativeTarget "Pods-GTNavigationView_Example" */;
+			buildPhases = (
+				E5F49CB8691C71EC256546924968D06B /* Sources */,
+				A570E47D7B51060BE5FCC531704B4226 /* Frameworks */,
+				F6D9D0E6503174DB27A45C738C72D907 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA97C4DE5ADBF5E4686D2B6EB8BF8E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTNavigationView_Example";
+			productName = "Pods-GTNavigationView_Example";
+			productReference = 37D5A5A55BFF2B8B505823FE3BBDDC42 /* Pods_GTNavigationView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A6E44602194C33F5CFBFA3699E82C61 /* Pods-GTNavigationView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1939249788B698E629E2DC465582FA7B /* Build configuration list for PBXNativeTarget "Pods-GTNavigationView_Tests" */;
+			buildPhases = (
+				20A9A44383EEA439D1D97A3C6FE71CCC /* Sources */,
+				1704A2E191520739CFAF7CA1A19D59C2 /* Frameworks */,
+				341A32BB640B8F549DA4DC6821DCEC18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GTNavigationView_Tests";
+			productName = "Pods-GTNavigationView_Tests";
+			productReference = 64CF44D9A6EF0FC69BED5E43F388E444 /* Pods_GTNavigationView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B969DFD8D16966F914DD7E1282C52558 /* GTNavigationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F156E9A2A8BCC16BD30F31A1BF9AB22E /* Build configuration list for PBXNativeTarget "GTNavigationView" */;
+			buildPhases = (
+				D8984832355FA52E5A10169D7AE13C2E /* Sources */,
+				062F00340E6732708CDB4639B7EAFECF /* Frameworks */,
+				B7D57BF55935F1059A517C10788CD783 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTNavigationView;
+			productName = GTNavigationView;
+			productReference = 31ADCF66C35568122413A92D01FED3A1 /* GTNavigationView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					073D81D7512B92E005C849B8162D3D20 = {
+						LastSwiftMigration = 0810;
+					};
+					4A6E44602194C33F5CFBFA3699E82C61 = {
+						LastSwiftMigration = 0810;
+					};
+					B969DFD8D16966F914DD7E1282C52558 = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F50A949FB64B6E7676687F51AF2B3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B969DFD8D16966F914DD7E1282C52558 /* GTNavigationView */,
+				073D81D7512B92E005C849B8162D3D20 /* Pods-GTNavigationView_Example */,
+				4A6E44602194C33F5CFBFA3699E82C61 /* Pods-GTNavigationView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A9A44383EEA439D1D97A3C6FE71CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F473C7EB07B613942565843D551EF7 /* Pods-GTNavigationView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8984832355FA52E5A10169D7AE13C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C04EB58D282A369F4B8D97AF8AF3FC /* GTNavigationView-dummy.m in Sources */,
+				BF45E1A21DEE0E7C00471F81 /* ComplexNavigationView.swift in Sources */,
+				BF45E1A31DEE0E7C00471F81 /* SimpleNavigationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F49CB8691C71EC256546924968D06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA2AB717DFD9404F9D2DFF76788D74 /* Pods-GTNavigationView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA97C4DE5ADBF5E4686D2B6EB8BF8E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTNavigationView;
+			target = B969DFD8D16966F914DD7E1282C52558 /* GTNavigationView */;
+			targetProxy = 49D5EAAF9279F409F5FF11EEE26F0D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52678A184CDDA419E16A0F495CA0DF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D63870A58963B1D3520DB5C4B818B6C /* Pods-GTNavigationView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNavigationView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNavigationView_Example/Pods-GTNavigationView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GTNavigationView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D4C2D2F864B26C4C1CB0DE96E0130C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471139905B4E4AE749FC06F59B89D56B /* GTNavigationView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTNavigationView/GTNavigationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTNavigationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTNavigationView/GTNavigationView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTNavigationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CAB3DC10392EC6EA6D1E36C0D153D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DB94ADD3C268A88883058090FFD1F9 /* Pods-GTNavigationView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNavigationView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNavigationView_Tests/Pods-GTNavigationView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GTNavigationView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB46F7A6CB9E8F069EA7396EF1F840DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAF34D9609FB4C85BCF36D781AD806A /* Pods-GTNavigationView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNavigationView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNavigationView_Example/Pods-GTNavigationView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GTNavigationView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB2AC83B161DEDC6DB779F42F3D12320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471139905B4E4AE749FC06F59B89D56B /* GTNavigationView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTNavigationView/GTNavigationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTNavigationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTNavigationView/GTNavigationView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GTNavigationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD20F3CE85279C686B18FF6B8133AC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9F1631EC508F941878963BBC15B860 /* Pods-GTNavigationView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNavigationView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNavigationView_Tests/Pods-GTNavigationView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GTNavigationView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1939249788B698E629E2DC465582FA7B /* Build configuration list for PBXNativeTarget "Pods-GTNavigationView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAB3DC10392EC6EA6D1E36C0D153D41 /* Debug */,
+				DD20F3CE85279C686B18FF6B8133AC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B0BF4619EFC5399C1208B21820C1AA /* Build configuration list for PBXNativeTarget "Pods-GTNavigationView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB46F7A6CB9E8F069EA7396EF1F840DE /* Debug */,
+				52678A184CDDA419E16A0F495CA0DF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F156E9A2A8BCC16BD30F31A1BF9AB22E /* Build configuration list for PBXNativeTarget "GTNavigationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2AC83B161DEDC6DB779F42F3D12320 /* Debug */,
+				6D4C2D2F864B26C4C1CB0DE96E0130C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

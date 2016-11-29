@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComplexNavigationView" customModule="GTNavigationView" customModuleProvider="target">
+            <connections>
+                <outlet property="dividerImageView" destination="3MY-fB-p6D" id="smB-d7-f3Q"/>
+                <outlet property="leftButton" destination="Hn2-Pc-37c" id="WtN-cN-PGL"/>
+                <outlet property="leftSubButton" destination="9Hf-Cp-myg" id="qhD-4S-fIV"/>
+                <outlet property="rightButton" destination="Qvc-vb-6lU" id="nRl-uK-GIp"/>
+                <outlet property="rightSubButton" destination="FKB-LN-vRt" id="llj-4q-RuP"/>
+                <outlet property="titleLabel" destination="Scq-Je-yER" id="KHg-u2-Gad"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="VZf-QZ-5J2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scq-Je-yER">
+                    <rect key="frame" x="100" y="0.0" width="175" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hn2-Pc-37c">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="jAA-W4-bzw"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKB-LN-vRt">
+                    <rect key="frame" x="275" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="N01-Ul-VJp"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvc-vb-6lU">
+                    <rect key="frame" x="325" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="NsC-rc-Apw"/>
+                    </constraints>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider_b" translatesAutoresizingMaskIntoConstraints="NO" id="3MY-fB-p6D">
+                    <rect key="frame" x="16" y="43" width="343" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="VQ7-2E-scz"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hf-Cp-myg">
+                    <rect key="frame" x="50" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="DsN-Xi-ZZO"/>
+                    </constraints>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9Hf-Cp-myg" secondAttribute="bottom" id="2Np-nB-sOe"/>
+                <constraint firstAttribute="trailing" secondItem="3MY-fB-p6D" secondAttribute="trailing" constant="16" id="8Fe-PN-2BU"/>
+                <constraint firstAttribute="bottom" secondItem="FKB-LN-vRt" secondAttribute="bottom" id="Cze-BU-Ika"/>
+                <constraint firstAttribute="bottom" secondItem="Hn2-Pc-37c" secondAttribute="bottom" id="MaF-Qa-Hkb"/>
+                <constraint firstAttribute="bottom" secondItem="Qvc-vb-6lU" secondAttribute="bottom" id="N4A-QZ-la9"/>
+                <constraint firstItem="Scq-Je-yER" firstAttribute="top" secondItem="VZf-QZ-5J2" secondAttribute="top" id="Ned-pv-e4E"/>
+                <constraint firstItem="Qvc-vb-6lU" firstAttribute="top" secondItem="VZf-QZ-5J2" secondAttribute="top" id="O6G-Vd-uff"/>
+                <constraint firstItem="Hn2-Pc-37c" firstAttribute="leading" secondItem="VZf-QZ-5J2" secondAttribute="leading" id="OHz-E4-Xo4"/>
+                <constraint firstItem="9Hf-Cp-myg" firstAttribute="leading" secondItem="Hn2-Pc-37c" secondAttribute="trailing" id="PBg-sW-Di9"/>
+                <constraint firstItem="Scq-Je-yER" firstAttribute="top" secondItem="VZf-QZ-5J2" secondAttribute="top" id="X0r-91-zW2"/>
+                <constraint firstItem="Hn2-Pc-37c" firstAttribute="top" secondItem="VZf-QZ-5J2" secondAttribute="top" id="Xko-tK-Bfv"/>
+                <constraint firstItem="Qvc-vb-6lU" firstAttribute="leading" secondItem="FKB-LN-vRt" secondAttribute="trailing" id="ZcB-NF-GXR"/>
+                <constraint firstAttribute="bottom" secondItem="Scq-Je-yER" secondAttribute="bottom" id="e1a-OJ-0Up"/>
+                <constraint firstItem="3MY-fB-p6D" firstAttribute="leading" secondItem="VZf-QZ-5J2" secondAttribute="leading" constant="16" id="fj0-MY-Ur5"/>
+                <constraint firstItem="9Hf-Cp-myg" firstAttribute="top" secondItem="VZf-QZ-5J2" secondAttribute="top" id="gwu-5j-byC"/>
+                <constraint firstItem="FKB-LN-vRt" firstAttribute="top" secondItem="VZf-QZ-5J2" secondAttribute="top" id="iuX-P7-G33"/>
+                <constraint firstAttribute="trailing" secondItem="Qvc-vb-6lU" secondAttribute="trailing" id="kfE-91-BSt"/>
+                <constraint firstItem="Scq-Je-yER" firstAttribute="leading" secondItem="9Hf-Cp-myg" secondAttribute="trailing" id="m0p-EO-YoZ"/>
+                <constraint firstAttribute="bottom" secondItem="Scq-Je-yER" secondAttribute="bottom" id="oFb-8a-cRi"/>
+                <constraint firstItem="FKB-LN-vRt" firstAttribute="leading" secondItem="Scq-Je-yER" secondAttribute="trailing" id="sOm-fp-SoN"/>
+                <constraint firstAttribute="bottom" secondItem="3MY-fB-p6D" secondAttribute="bottom" id="uc0-nD-7AO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="divider_b" width="2" height="1"/>
+    </resources>
+</document>

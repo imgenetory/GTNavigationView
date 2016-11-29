@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTNavigationView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GTNavigationView.'
+  s.version          = '1.0.0'
+  s.summary          = 'This is custom navigationviews'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/GTNavigationView'
+  s.homepage         = 'https://github.com/imgenetory/GTNavigationView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '문지윤' => 'jiyoun@generalfactory.co.kr' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/GTNavigationView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/imgenetory/GTNavigationView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GTNavigationView/Classes/**/*'
-  
+  s.source_files = 'GTNavigationView/Classes/NavigationViews/**/*'
+
   # s.resource_bundles = {
-  #   'GTNavigationView' => ['GTNavigationView/Assets/*.png']
+  #   'GTNavigationView' => ['GTNavigationView/Images/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

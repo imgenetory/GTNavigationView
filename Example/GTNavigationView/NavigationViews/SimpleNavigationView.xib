@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleNavigationView" customModule="GTNavigationView" customModuleProvider="target">
+            <connections>
+                <outlet property="dividerImageView" destination="xNR-bm-bYR" id="P5p-PE-f7h"/>
+                <outlet property="leftButton" destination="KTS-bt-EnI" id="NW9-5Q-I4Z"/>
+                <outlet property="rightButton" destination="tij-rN-oLF" id="Oja-Qc-6hi"/>
+                <outlet property="titleLabel" destination="FGi-zR-NeU" id="3ne-PJ-d21"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGi-zR-NeU">
+                    <rect key="frame" x="50" y="0.0" width="275" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTS-bt-EnI">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="uzf-pC-DfG"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tij-rN-oLF">
+                    <rect key="frame" x="325" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="ih9-xR-XeZ"/>
+                    </constraints>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider_b" translatesAutoresizingMaskIntoConstraints="NO" id="xNR-bm-bYR">
+                    <rect key="frame" x="16" y="43" width="343" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="n46-Nt-ea3"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FGi-zR-NeU" firstAttribute="leading" secondItem="KTS-bt-EnI" secondAttribute="trailing" id="ALO-cm-KeH"/>
+                <constraint firstItem="xNR-bm-bYR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="DGU-hO-EkU"/>
+                <constraint firstItem="FGi-zR-NeU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="M6S-Z7-RLY"/>
+                <constraint firstItem="tij-rN-oLF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="S2K-NA-uAG"/>
+                <constraint firstAttribute="bottom" secondItem="xNR-bm-bYR" secondAttribute="bottom" id="VXH-8V-h6b"/>
+                <constraint firstAttribute="trailing" secondItem="tij-rN-oLF" secondAttribute="trailing" id="W8V-dD-WA0"/>
+                <constraint firstAttribute="bottom" secondItem="FGi-zR-NeU" secondAttribute="bottom" id="Wdu-cH-RUX"/>
+                <constraint firstAttribute="bottom" secondItem="tij-rN-oLF" secondAttribute="bottom" id="aga-xg-lHU"/>
+                <constraint firstAttribute="trailing" secondItem="xNR-bm-bYR" secondAttribute="trailing" constant="16" id="bAp-q2-EPB"/>
+                <constraint firstItem="tij-rN-oLF" firstAttribute="leading" secondItem="FGi-zR-NeU" secondAttribute="trailing" id="hZz-pc-wAV"/>
+                <constraint firstItem="KTS-bt-EnI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mwr-bc-vqZ"/>
+                <constraint firstItem="KTS-bt-EnI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uOw-XZ-CxS"/>
+                <constraint firstAttribute="bottom" secondItem="KTS-bt-EnI" secondAttribute="bottom" id="v32-ZH-kNy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="divider_b" width="2" height="1"/>
+    </resources>
+</document>

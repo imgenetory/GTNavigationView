@@ -1,0 +1,16 @@
+PODS:
+  - GTNavigationView (0.1.0)
+
+DEPENDENCIES:
+  - GTNavigationView (from `../`)
+
+EXTERNAL SOURCES:
+  GTNavigationView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GTNavigationView: 71088b58c60fb5d6b77976f7bf89626672da0e4c
+
+PODFILE CHECKSUM: 7c891e559ee90d00f5bda7190d002f864013c714
+
+COCOAPODS: 1.0.1
