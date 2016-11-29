@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GTNavigationView_Example' do
+  pod 'GTNavigationView', :path => '../'
+
+  target 'GTNavigationView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
